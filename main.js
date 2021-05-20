@@ -1,1 +1,2 @@
-//start coding here
+//pseudo code here
+//
