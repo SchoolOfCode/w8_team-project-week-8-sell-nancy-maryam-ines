@@ -16,34 +16,34 @@
     <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
     <a href="#features" class="w3-bar-item w3-button w3-padding-large w3-hide-small">FEATURES</a>
     <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
-    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
   </div>
 </div>
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
-  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#home" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HOME</a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT</a>
+  <a href="#features" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">FEATURES</a>
   <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
-  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+ 
 </div>
 
 <!-- Page content -->
 <div class="w3-content" style="max-width:2000px;margin-top:46px">
 
  
-  <!-- The Band Section -->
+  <!-- The Translate Section -->
   <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
     <h2 class="w3-wide">TRANSLATE HERE</h2>
     <p class="w3-opacity"><i>slogan here</i></p>
-    <p class="w3-justify">CENTRE THIS TEXT Information about the translation app</p>
+    <p class="w3-justify">Information about the translation app</p>
     <div class="w3-row w3-padding-32">
       <div class="w3-third">
         <p>Enter Text Here</p>
         <input type="text">
       </div>
       <div class="w3-third">
-        <p>delete this column</p>
+        <p></p>
       </div>
       <div class="w3-third">
         <p>Translated Text Appear Here</p>
@@ -93,27 +93,6 @@
   <i class="fa fa-linkedin w3-hover-opacity"></i>
   <p class="w3-medium">Our Logo Here </p>
 </footer>
-
-<script>
-
-// Used to toggle the menu on small screens when clicking on the menu button
-function myFunction() {
-  var x = document.getElementById("navDemo");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else { 
-    x.className = x.className.replace(" w3-show", "");
-  }
-}
-
-// When the user clicks anywhere outside of the modal, close it
-var modal = document.getElementById('ticketModal');
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-</script>
 
 </body>
 </html>
