@@ -3,8 +3,8 @@
 Testing APIs + choosing two
 
 Ines and Nancy will approach different APIs
-Ines = text to text translator API
-Nancy = text to speech translator API
+- Ines = text to text translator API
+- Nancy = text to speech translator API
 
 
 Target audience research
