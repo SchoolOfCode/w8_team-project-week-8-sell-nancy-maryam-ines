@@ -1,6 +1,6 @@
 # w8_team-project-week-8-sell-nancy-maryam-ines
 
-Testing APIs + choosing two
+OUR PLAN
 
 APIs (.js)
 - Ines = text to text translator API
