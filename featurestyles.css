@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+
+.about-section {
+    max-height: 100px;
+    padding: 20px;
+    margin bottom: 100px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+
+.grid{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 100px 200px;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.inputBox{
+    width: 50%;
+    padding: 200px 200px;
+    box-sizing: border-box;
+    border: 2px solid grey;
+    border-radius: 4px;
+    
+}
+
+.title{
+font-size: 20px ;
+font-weight: bold;
+padding: 10px;
+padding-left: 60px;
+}
