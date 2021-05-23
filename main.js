@@ -34,3 +34,19 @@ function translateFunction(event) {
     })
     .catch(() => alert("Shakespeare(Server) is busy! Try after sometime"));
 }
+function HandleTranslation() {
+  let wordToTranslate = outputElement.innerText;
+  console.log(wordToTranslate);
+
+  speak(wordToTranslate);
+}
+
+function speak(word) {
+  let hear = new SpeechSynthesisUtterance();
+  hear.text = word;
+  console.log(hear.text);
+  hear.volume = 1;
+  hear.lang = "en-US";
+  console.log({ hear });
+  speechSynthesis.speak(hear);
+}

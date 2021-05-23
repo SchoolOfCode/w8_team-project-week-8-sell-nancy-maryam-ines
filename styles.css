@@ -1,15 +1,15 @@
 /* Style the body */
 body {
-  background-image: url("https://i.ibb.co/sRpRBqB/maarten-deckers-5-GKdpmo0w-I8-unsplash.jpg");
+  background-image: url("https://i.ibb.co/NSmzgy2/william-shakespeare-the-life-of-the-bard.jpg");
   font-family: Arial;
   background-size: cover;
-  background-position: center;
+  background-position: cover;
   max-width: 2000px;
   margin-top: 46px;
 }
 
 footer {
-  height: 400px;
+  height: 200px;
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -44,7 +44,6 @@ body {
   margin: 0;
 }
 
-footer,
 header,
 main,
 menu,
@@ -275,9 +274,13 @@ h2 {
 }
 .w3-black {
   color: #fff !important;
-  background-color: rgb(156, 144, 144) !important;
+  background-color: rgb(49, 29, 6) !important;
 }
 .w3-light-grey {
   color: #000 !important;
   background-color: #f1f1f1 !important;
+}
+.box {
+  background-color: #ffffff;
+  padding-left: 30px;
 }

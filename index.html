@@ -14,7 +14,6 @@
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="#home" class="w3-bar-item w3-button w3-padding-large">HOME</a>
     <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
-    <a href="#features" class="w3-bar-item w3-button w3-padding-large w3-hide-small">FEATURES</a>
     <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
   </div>
 </div>
@@ -23,7 +22,6 @@
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
   <a href="#home" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HOME</a>
   <a href="#about" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT</a>
-  <a href="#features" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">FEATURES</a>
   <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
  
 </div>
@@ -34,12 +32,12 @@
  
   <!-- The Translate Section -->
   <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
-    <h2 class="w3-wide">TRANSLATE HERE</h2>
+    <h2 class="w3-wide">Translate.lit()</h2>
     <p class="w3-opacity"><i>slogan here</i></p>
     <p class="w3-justify">Information about the translation app</p>
     <div class="w3-row w3-padding-32">
       <div class="w3-third">
-        <p> XXX</p>
+        <p> Enter text below</p>
         <input type="textarea" id="inputTxt" placeholder="insert your text">
     <button id="translateButton">Translate!</button>
     
@@ -48,8 +46,9 @@
         <p></p>
       </div>
       <div class="w3-third">
-        <p id="outputTxt">XXX</p>
-        <input type="textarea">
+        <p>Shakespeare says:</p>
+        <p class="box w3-border" id="outputTxt"></p>
+        <button onclick="HandleTranslation();">Speak</button>
       </div>
     </div>
   </div>
