@@ -47,7 +47,8 @@ html {
   margin bottom: 100px;
   text-align: center;
   background-color: #9C6136;
-  color: white;
+  color: black;
+  font-weight: bold;
 }
 
 #heading{
