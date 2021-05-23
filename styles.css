@@ -44,6 +44,11 @@ body {
   margin: 0;
 }
 
+img {
+  width: 10%;
+  height: auto;
+}
+
 header,
 main,
 menu,
