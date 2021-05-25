@@ -1,10 +1,9 @@
 /* Style the body */
 body {
-  background-image: url("https://i.ibb.co/NSmzgy2/william-shakespeare-the-life-of-the-bard.jpg");
+  background-image: url("http://news.bbcimg.co.uk/media/images/81731000/jpg/_81731334_shakespeare.jpg");
   font-family: Arial;
   background-size: cover;
   background-position: cover;
-  max-width: 2000px;
   margin-top: 46px;
 }
 
@@ -13,10 +12,7 @@ footer {
   width: 100%;
   background-size: cover;
   background-position: center;
-  position: fixed;
-  bottom: 0;
 }
-
 /* Style the top navigation bar */
 .navbar {
   display: flex;
@@ -52,8 +48,14 @@ body {
 }
 
 img {
-  width: 7%;
+  width: 10%;
   height: auto;
+}
+.info {
+  text-align: left;
+  font-size: 30px;
+  margin-left: 80px;
+  margin-top: 100px;
 }
 
 header,
@@ -86,14 +88,14 @@ body {
 html {
   overflow-x: hidden;
 }
-
-h2 {
+h3 {
   font-family: "Segoe UI", Arial, sans-serif;
-  font-weight: 400;
-  margin: 10px 0;
-  font-size: 60px;
-  color: white;
+  font-weight: 100;
+  font-size: 30px;
+  margin-left: 80px;
+  margin-top: 50px;
 }
+
 .w3-wide {
   letter-spacing: 4px;
 }
@@ -295,4 +297,45 @@ h2 {
 .box {
   background-color: #ffffff;
   padding-left: 30px;
+}
+
+/*contact form spec */
+/* Style inputs with type="text", select elements and textareas */
+input[type="text"],
+select,
+textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 10px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type="submit"] {
+  background-color: rgb(49, 29, 6);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type="submit"]:hover {
+  background-color: rgb(49, 29, 6);
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+form {
+  margin: 60px;
+  margin-top: 20px;
 }

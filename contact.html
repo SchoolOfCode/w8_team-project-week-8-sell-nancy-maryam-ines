@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contact us </title>
+    <link rel="stylesheet" href="contact.css">
+    
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-black w3-card">
+          <a
+            class="
+              w3-bar-item
+              w3-button
+              w3-padding-large
+              w3-hide-medium
+              w3-hide-large
+              w3-right
+            "
+            href="javascript:void(0)"
+            onclick="myFunction()"
+            title="Toggle Navigation Menu"
+            ><i class="fa fa-bars"></i
+          ></a>
+          <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+          <a
+            href="about.html"
+            class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+            >ABOUT</a
+          >
+          <a
+            href="contact.html"
+            class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+            >CONTACT</a
+          >
+        </div>
+      </div>
+     
+      <div class="info">        
+        <i class="fa fa-envelope" style="width: 30px"> </i> Email:
+        info@language.lit <br />
+        <i class="fa fa-phone" style="width: 30px"></i> Phone:
+        +0121345678<br />
+        <i class="fa fa-map-marker" style="width: 30px"></i> West Midlands,
+        UK<br />
+      </div>
+
+      <h3> <strong>Let us know your thoughts! </strong> </h3>
+
+     
+      <div class="container">
+        <form action="mailto:info@language.lit" method="post" enctype="text/plain">
+      
+          <label for="fname"> Name</label>
+          <input type="text" id="fname" name="name" placeholder="Your name..">
+      
+          <label for="lname">Email</label>
+          <input type="text" id="email" name="email" placeholder="Email..">
+      
+                
+          <label for="subject">Message</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Send">
+      
+        </form>
+      </div>
+       
+</body>
+</html>
